@@ -24,9 +24,7 @@
 
 \renewcommand\thesectiondis{\arabic{section}}
 \renewcommand\thesubsectiondis{\thesectiondis.\arabic{subsection}}
-\renewcommand\thesubsubsectiondis{\thesubsectiondis.\arabic{subsubsection}}
-
-\def\inputGnumericTable{}                                 %%
+\renewcommand\thesubsubsectiondis{\thesubsectiondis.\arabic{subsubsection}}                                
 
 \lstset{
 frame=single, 
@@ -105,17 +103,13 @@ Let $R$ be the event that the drawn ball is red, and $R^\prime$ be the event tha
 \begin{enumerate}[label=(\roman*)]
     \item Probability that the drawn ball is red
     \begin{align}
-    \label{ProbRed}= P(R) = \frac{Number\ of\ red\ balls}{Total\ number\ of\ balls}= \boxed{\frac{3}{8}}
+    =P(R) = \frac{Number\ of\ red\ balls}{Total\ number\ of\ balls}= \boxed{\frac{3}{8}}
     \end{align}
     \item Probability that the drawn ball is not red
     \begin{align}
-    \nonumber&= P(R^\prime)\\ &= 1-P(R)= 1-\frac{3}{8} = \boxed{\frac{5}{8}}\\
-    \nonumber&\ \ \ [Using\ Eq.\ (\ref{ProbRed})]
+    &= P(R^\prime)\\ &= 1-P(R)= 1-\frac{3}{8} = \boxed{\frac{5}{8}}
     \end{align}
-    
 \end{enumerate}
-
-
 \end{document}
 
 
