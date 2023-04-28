@@ -99,15 +99,23 @@ Number of red balls in the bag = 3\\
 Number of black balls in the bag = 5\\
 Total number of balls in the bag $= 3+5 = 8$\\[10pt]
 \noindent
-Let $R$ be the event that the drawn ball is red, and $R^\prime$ be the event that the drawn ball is not red.
+Let $X$ be a Bernoulli random variable, such that $X\sim Ber(p).$
+\begin{align}
+X= \begin{cases} 
+      1 & \text{if drawn ball is red} \\
+      0 & \text{otherwise.} 
+   \end{cases}
+\end{align}
 \begin{enumerate}[label=(\roman*)]
     \item Probability that the drawn ball is red
     \begin{align}
-    =P(R) = \frac{Number\ of\ red\ balls}{Total\ number\ of\ balls}= \boxed{\frac{3}{8}}
+    &=P(X=1)\\
+    & = \frac{Number\ of\ red\ balls}{Total\ number\ of\ balls}= \boxed{\frac{3}{8}}\\
+    &\implies p = \frac{3}{8}
     \end{align}
     \item Probability that the drawn ball is not red
     \begin{align}
-    &= P(R^\prime)\\ &= 1-P(R)= 1-\frac{3}{8} = \boxed{\frac{5}{8}}
+    &= P(X=0)\\ &= 1-p= 1-\frac{3}{8} = \boxed{\frac{5}{8}}
     \end{align}
 \end{enumerate}
 \end{document}
