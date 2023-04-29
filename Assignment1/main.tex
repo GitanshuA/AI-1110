@@ -91,13 +91,18 @@ Assignment 1
 \subsection*{\textbf{\underline{Problem 10.15.1.8}:-}}
 \noindent
 A bag contains 3 red balls and 5 black balls. A ball is drawn at random from the bag.
-What is the probability that the ball drawn is (i) red ? (ii) not red?
+What is the probability that the ball drawn is\begin{enumerate}[label=(\roman*)] \item red ? \item not red? \end{enumerate}
 
 \subsection*{\textbf{\underline{Solution}:-}}
 \noindent
-Number of red balls in the bag = 3\\
-Number of black balls in the bag = 5\\
-Total number of balls in the bag $= 3+5 = 8$\\[10pt]
+Let S be the sample space.\\
+Let R be the event that the selected ball is red and B be the event that the selected ball is black.
+\begin{align}
+&\text{Number of red balls in the bag} = n(R) = 3\\
+&\text{Number of black balls in the bag} = n(B) = 5
+\end{align}
+\begin{align}\nonumber\text{Total number of balls in the bag} &= n(S)\\ &=n(R)+n(B) = 8
+\end{align}
 \noindent
 Let $X$ be a Bernoulli random variable, such that $X\sim Ber(p).$
 \begin{align}
@@ -110,12 +115,12 @@ X= \begin{cases}
     \item Probability that the drawn ball is red
     \begin{align}
     &=\pr{X=1}\\
-    & = \frac{Number\ of\ red\ balls}{Total\ number\ of\ balls}= \boxed{\frac{3}{8}}\\
+    & = \frac{n(R)}{n(S)}= \frac{3}{8}\\
     &\implies p = \frac{3}{8}
     \end{align}
     \item Probability that the drawn ball is not red
     \begin{align}
-    &= \pr{X=0}\\ &= 1-p= 1-\frac{3}{8} = \boxed{\frac{5}{8}}
+    &= \pr{X=0}\\ &= 1-p= 1-\frac{3}{8} = \frac{5}{8}
     \end{align}
 \end{enumerate}
 \end{document}
