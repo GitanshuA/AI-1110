@@ -109,30 +109,64 @@ each even number. Find P(G), where G is the event that a number greater than
 
 \subsection*{\textbf{\underline{Solution}:-}}
 
-Let $X$ be a random variable denoting the number obtained on the die.\\
-Let \pr{X=2m} be $p$,\\
-$\implies\pr{X=2m-1}=2p,\ where\ 1\leq m \leq3$
-\input{tables/table1.tex}
+Let $X$ be a random variable denoting the number 
+obtained on the die.\\
+
+Let $m$ be any natural number such that $m\in\{1,2,3\}$.\\ 
+% Let \pr{X=2m} be $p$,\\
+% $\implies\pr{X=2m-1}=2p,\ where\ 1\leq m \leq3$
 \begin{align}
-  \sum_{i=1}^{6}\pr{X=i} = 1
-  \end{align}
-  \begin{align}
-  % &\implies \sum_{i=0}^{\infty}\pr{X=i}
-  \begin{split}
-  \implies\pr{X=1}+\pr{X=2}+\pr{X=3}\\+\pr{X=4}+\pr{X=5}+\pr{X=6} =1
-  \end{split}
-  \end{align}
-  \begin{align}
-        &\implies 2p+p+2p+p+2p+p = 1\\
-        &\implies 9p = 1\\
-        &\implies p =1/9
-  \end{align}
-  \begin{align}
+\pr{X=x}= \begin{cases} 
+      2p, & if\ x=2m-1 \\
+      p, & if\ x=2m 
+   \end{cases}
+\end{align}
+Let $F_X (x)$ be the cumulative distribution function such that,\\
+\begin{align}
+    F_X (x) = \pr{X\leq x}
+\end{align}
+If $x = 2m-1$,
+\begin{align}
+\begin{split}
+    F_X (x) = &\underbrace{\pr{X=1} + \pr{X=3} + ... \pr{X=2m-1}}_{\text{$m$ terms}}\\
+    +&\underbrace{\pr{X=2} + \pr{X=4} + ... \pr{X=2m-2}}_{\text{$m-1$ terms}}
+\end{split}
+\\
+    &= (m)(2p) + (m-1)(p)\\
+    &= p(3m-1)\\
+    &= \frac{p(3x+1)}{2}
+\end{align}
+If $x = 2m$,
+\begin{align}
+\begin{split}
+    F_X (x) = &\underbrace{\pr{X=1} + \pr{X=3} + ... \pr{X=2m-1}}_{\text{$m$ terms}}\\
+    +&\underbrace{\pr{X=2} + \pr{X=4} + ... \pr{X=2m}}_{\text{$m$ terms}}
+\end{split}
+\\
+    &= (m)(2p) + (m)(p)\\
+    &= p(3m)\\
+    &= \frac{3px}{2}
+\end{align}
+So,
+\begin{align}
+&F_X (x)= \begin{cases} 
+      \frac{p(3x+1)}{2}, & if\ x=2m-1 \\
+      \frac{3px}{2}, & if\ x=2m 
+   \end{cases}
+\end{align}\\
+Since $1\leq X \leq6$,
+\begin{align}
+&F_X (6) = 1\\
+&\implies \frac{3p(6)}{2} = 1\\
+&\implies p = \frac{1}{9}
+\end{align}
+\begin{align}
   \pr{G} &= \pr{X>3}\\
-  &=\pr{X=4}+\pr{X=5}+\pr{X=6}\\
-  &=p+2p+p = 4p = \frac{4}{9}
+  &=F_X (6) - F_X (3)\\
+  &=\frac{3p(6)}{2} - \frac{p\{3(3)+1\}}{2}\\
+  &= 9p - 5p = 4p\\
+  &= \frac{4}{9}
   \end{align}
-  
 \end{document}
 
 
