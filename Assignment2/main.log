@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.4.24)  5 MAY 2023 17:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.4.24)  6 MAY 2023 12:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1343,8 +1343,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--118
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 123--125
-\OT1/txr/m/n/12 Let $\OML/txmi/m/it/12 F[]\OT1/txr/m/n/12 (\OML/txmi/m/it/12 x\
+Underfull \hbox (badness 3895) in paragraph at lines 123--125
+\OT1/txr/m/n/12 Let $\OML/txmi/m/it/12 F[]\OT1/txr/m/n/12 (\OML/txmi/m/it/12 k\
 OT1/txr/m/n/12 )$ be the cu-mu-la-tive dis-tri-bu-tion
  []
 
@@ -1354,12 +1354,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--125
  []
 
 
-Overfull \hbox (23.90286pt too wide) detected at line 138
+Overfull \hbox (23.47087pt too wide) detected at line 138
 []
  []
 
 
-Overfull \hbox (23.90286pt too wide) detected at line 149
+Overfull \hbox (23.47087pt too wide) detected at line 149
 []
  []
 
@@ -1390,7 +1390,7 @@ onts/txexa.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (1 page, 49265 bytes).
+Output written on main.pdf (1 page, 49194 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream

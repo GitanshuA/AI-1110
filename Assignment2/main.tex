@@ -116,42 +116,42 @@ Let $m$ be any natural number such that $m\in\{1,2,3\}$.\\
 % Let \pr{X=2m} be $p$,\\
 % $\implies\pr{X=2m-1}=2p,\ where\ 1\leq m \leq3$
 \begin{align}
-\pr{X=x}= \begin{cases} 
-      2p, & if\ x=2m-1 \\
-      p, & if\ x=2m 
+\pr{X=k}= \begin{cases} 
+      2p, & if\ k=2m-1 \\
+      p, & if\ k=2m 
    \end{cases}
 \end{align}
-Let $F_X (x)$ be the cumulative distribution function such that,\\
+Let $F_X (k)$ be the cumulative distribution function such that,\\
 \begin{align}
-    F_X (x) = \pr{X\leq x}
+    F_X (k) = \pr{X\leq k}
 \end{align}
-If $x = 2m-1$,
+If $k = 2m-1$,
 \begin{align}
 \begin{split}
-    F_X (x) = &\underbrace{\pr{X=1} + \pr{X=3} + ... \pr{X=2m-1}}_{\text{$m$ terms}}\\
+    F_X (k) = &\underbrace{\pr{X=1} + \pr{X=3} + ... \pr{X=2m-1}}_{\text{$m$ terms}}\\
     +&\underbrace{\pr{X=2} + \pr{X=4} + ... \pr{X=2m-2}}_{\text{$m-1$ terms}}
 \end{split}
 \\
     &= (m)(2p) + (m-1)(p)\\
     &= p(3m-1)\\
-    &= \frac{p(3x+1)}{2}
+    &= \frac{p(3k+1)}{2}
 \end{align}
-If $x = 2m$,
+If $k = 2m$,
 \begin{align}
 \begin{split}
-    F_X (x) = &\underbrace{\pr{X=1} + \pr{X=3} + ... \pr{X=2m-1}}_{\text{$m$ terms}}\\
+    F_X (k) = &\underbrace{\pr{X=1} + \pr{X=3} + ... \pr{X=2m-1}}_{\text{$m$ terms}}\\
     +&\underbrace{\pr{X=2} + \pr{X=4} + ... \pr{X=2m}}_{\text{$m$ terms}}
 \end{split}
 \\
     &= (m)(2p) + (m)(p)\\
     &= p(3m)\\
-    &= \frac{3px}{2}
+    &= \frac{3pk}{2}
 \end{align}
 So,
 \begin{align}
-&F_X (x)= \begin{cases} 
-      \frac{p(3x+1)}{2}, & if\ x=2m-1 \\
-      \frac{3px}{2}, & if\ x=2m 
+&F_X (k)= \begin{cases} 
+      \frac{p(3k+1)}{2}, & if\ k=2m-1 \\
+      \frac{3pk}{2}, & if\ k=2m 
    \end{cases}
 \end{align}\\
 Since $1\leq X \leq6$,
