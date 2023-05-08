@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.4.24)  6 MAY 2023 12:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.4.24)  8 MAY 2023 15:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1354,16 +1354,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--125
  []
 
 
-Overfull \hbox (23.47087pt too wide) detected at line 138
-[]
- []
-
-
-Overfull \hbox (23.47087pt too wide) detected at line 149
-[]
- []
-
-
 Overfull \vbox (5.35199pt too high) has occurred while \output is active []
 
 
@@ -1375,25 +1365,24 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31409 strings out of 478023
- 618565 string characters out of 5841208
- 908156 words of memory out of 5000000
- 49157 multiletter control sequences out of 15000+600000
- 530146 words of font info for 152 fonts, out of 8000000 for 9000
+ 31402 strings out of 478023
+ 618468 string characters out of 5841208
+ 905156 words of memory out of 5000000
+ 49146 multiletter control sequences out of 15000+600000
+ 526494 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,21n,96p,1172b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,14n,96p,1172b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
-onts/txexa.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (1 page, 49194 bytes).
+onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (1 page, 46962 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
- 23 named destinations out of 1000 (max. 500000)
+ 64 compressed objects within 1 object stream
+ 27 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

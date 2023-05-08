@@ -127,22 +127,20 @@ Let $F_X (k)$ be the cumulative distribution function such that,\\
 \end{align}
 If $k = 2m-1$,
 \begin{align}
-\begin{split}
-    F_X (k) = &\underbrace{\pr{X=1} + \pr{X=3} + ... \pr{X=2m-1}}_{\text{$m$ terms}}\\
-    +&\underbrace{\pr{X=2} + \pr{X=4} + ... \pr{X=2m-2}}_{\text{$m-1$ terms}}
-\end{split}
+    F_X (k) = &\sum_{i=1}^{2m-1}{\pr{X=i}}
 \\
+    &= \sum_{i=1}^{m}{\pr{2i-1}} + \sum_{i=1}^{m-1}{\pr{2i}}\\
+    &= \sum_{i=1}^{m}{2p} + \sum_{i=1}^{m-1}{p}\\
     &= (m)(2p) + (m-1)(p)\\
     &= p(3m-1)\\
     &= \frac{p(3k+1)}{2}
 \end{align}
 If $k = 2m$,
 \begin{align}
-\begin{split}
-    F_X (k) = &\underbrace{\pr{X=1} + \pr{X=3} + ... \pr{X=2m-1}}_{\text{$m$ terms}}\\
-    +&\underbrace{\pr{X=2} + \pr{X=4} + ... \pr{X=2m}}_{\text{$m$ terms}}
-\end{split}
+    F_X (k) = &\sum_{i=1}^{2m-1}{\pr{X=i}}
 \\
+    &= \sum_{i=1}^{m}{\pr{2i-1}} + \sum_{i=1}^{m}{\pr{2i}}\\
+    &=\sum_{i=1}^{m}{2p} + \sum_{i=1}^{m}{p}\\
     &= (m)(2p) + (m)(p)\\
     &= p(3m)\\
     &= \frac{3pk}{2}
