@@ -140,33 +140,33 @@ If $k = 2m-1$,
     F_X (k) = &\sum_{i=1}^{2m-1}{\pr{X=i}}
 \\
     &= \sum_{i=1}^{m}{\pr{X=2i-1}} + \sum_{i=1}^{m-1}{\pr{X=2i}}\\
-    &= \sum_{i=1}^{m}{2p} + \sum_{i=1}^{m-1}{p}\\
-    &= (m)(2p) + (m-1)(p)\\
-    &= p(3m-1)\\
-    &= \frac{p(3k+1)}{2}
+    &= \sum_{i=1}^{m}{2\left(\frac{1}{9}\right)} + \sum_{i=1}^{m-1}{\left(\frac{1}{9}\right)}\\
+    &= \frac{2m}{9} + \frac{m-1}{9}\\
+    &= \frac{3m-1}{9}\\
+    &= \frac{3k+1}{18}
 \end{align}
 If $k = 2m$,
 \begin{align}
     F_X (k) = &\sum_{i=1}^{2m-1}{\pr{X=i}}
 \\
     &= \sum_{i=1}^{m}{\pr{X=2i-1}} + \sum_{i=1}^{m}{\pr{X=2i}}\\
-    &=\sum_{i=1}^{m}{2p} + \sum_{i=1}^{m}{p}\\
-    &= (m)(2p) + (m)(p)\\
-    &= p(3m)\\
-    &= \frac{3pk}{2}
+    &=\sum_{i=1}^{m}{2\left(\frac{1}{9}\right)} + \sum_{i=1}^{m}{\left(\frac{1}{9}\right)}\\
+    &= \frac{2m}{9} + \frac{m}{9}\\
+    &= \frac{m}{3}\\
+    &= \frac{k}{6}
 \end{align}
 So,
 \begin{align}
 &F_X (k)= \begin{cases} 
-      \frac{p(3k+1)}{2}, & if\ k=2m-1 \\
-      \frac{3pk}{2}, & if\ k=2m 
+      \frac{3k+1}{18}, & if\ k=2m-1 \\
+      \frac{k}{6}, & if\ k=2m 
    \end{cases}
 \end{align}\\
 \begin{align}
   \pr{G} &= \pr{X>3}\\
   &=F_X (6) - F_X (3)\\
-  &=\frac{3p(6)}{2} - \frac{p\{3(3)+1\}}{2}\\
-  &= 9p - 5p = 4p\\
+  &=1 - \frac{3(3)+1}{18}\\
+  &= 1 - \frac{5}{9}\\
   &= \frac{4}{9}
   \end{align}
 \end{document}
